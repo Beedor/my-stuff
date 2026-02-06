@@ -47,7 +47,9 @@ class Player(pygame.sprite.Sprite):
 
     def draw(self, surface):
         pygame.draw.circle(surface, GREEN, self.rect.center, 20)
-
+# Game class
+class Game:
+    def __init__(self):
 # Enemy class
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, x, y, speed):
